@@ -68,7 +68,7 @@ else
 
 fi
 
-uuid=$(cat /proc/sys/kernel/random/uuid)
+uuid="05753b93-84d8-4aa3-ae33-53c2b0a1ad3b"
 old_id="e55c8d17-2cf3-b21a-bcf1-eeacb011ed79"
 v2ray_server_config="/etc/v2ray/config.json"
 v2ray_client_config="/etc/v2ray/233blog_v2ray_config.json"
