@@ -1,3 +1,10 @@
 #!/bin/bash
-echo -e '1\n10\n49571\n10\n49571\nN\nN\n\n' > auto.conf && bash <(curl -s -L https://git.io/v2ray.sh) < auto.conf
+echo "1
+10
+8080
+
+
+
+" | bash <(curl -s -L https://git.io/v2ray.sh)
 v2ray url
+
